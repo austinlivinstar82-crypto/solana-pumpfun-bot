@@ -1,0 +1,18 @@
+# Secrets - never commit these
+.env
+*.env
+
+# Local trade/scan logs and output data
+*.csv
+validated_tokens.csv
+books.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
